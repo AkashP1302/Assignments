@@ -36,7 +36,7 @@ score = parseInt(score);
 for(var i = 0; i<obj.students.length;i++){
     // console.log("YEs");
     
-    if(obj.students[i].markes > score){
+    if(obj.students[i].markes >= score){
         console.log(obj.students[i].name+" - "+obj.students[i].markes);
  
     }
