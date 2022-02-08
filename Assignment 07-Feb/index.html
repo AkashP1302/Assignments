@@ -9,15 +9,15 @@
 <body>
 <h2>Admission Form</h2>
     <form>
-        <input type="text" placeholder="Enter First Name" name="fname" minlength="2" maxlength="25" required>
-        <input type="text" placeholder="Enter Middle Name" name="mname" minlength="2" maxlength="25" required>
-        <input type="text" placeholder="Enter Last Name" name="lname" minlength="2" maxlength="25" required><br><br>
+        <input type="text" placeholder="Enter First Name" name="fname" minlength="2" maxlength="25" pattern="[a-zA-Z]+" required>
+        <input type="text" placeholder="Enter Middle Name" name="mname" minlength="2" maxlength="25" pattern="[a-zA-Z]+" required>
+        <input type="text" placeholder="Enter Last Name" name="lname" minlength="2" maxlength="25" pattern="[a-zA-Z]+" required><br><br>
 
         <input type="email" placeholder="Enter Email ID" name="email" required pattern=".+@gmail.com"><br><br>
 
         <input type="tel" placeholder="Enter Your Mobile Number" name="mnumber"  pattern="[0-9]{10}" required><br> <br>
         
-        <input type="text" placeholder="Enter Your Address" name="address" minlength="10" maxlength="50" required><br><br>
+        <input type="text" placeholder="Enter Your Address" name="address" minlength="10" maxlength="50"  required><br><br>
         
         <input type="text" placeholder="Enter Your 10th %" name="10mark" pattern="[0-9]{2}" required><br><br>
 
