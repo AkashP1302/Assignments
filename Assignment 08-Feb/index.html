@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form GeekStar</title>
+    <style>
+        body {
+            text-align: center;
+            border: 2px solid black;
+            margin: 50px;
+            padding: 50px;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h2>Application Form</h2>
+    <form>
+
+        <label>Full Name*</label>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>Email*</label><br><br>
+
+        <input type="text" placeholder="Enter Full Name" name="fname" required>
+        &emsp;&emsp;&emsp;&emsp;
+        <input type="email" placeholder="Enter Email" name="email" required pattern=".+@gmail.com"> <br><br>
+
+        <label>Select Course*</label><br>
+        <select name="course" required>
+            <option>Select course</option>
+            <option value="full_dev">Full Stack Web Development</option>
+            <option value="adv_dev">Advanced Web Development</option>
+        </select><br><br>
+
+        <label>Phone*</label>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>Highest Degree*</label><br><br>
+
+        <input type="text" placeholder="Enter Mobile Number" name="mobile" pattern="[0-9]{10}" required
+            minlength="6000000000" maxlength="9999999999">
+        &emsp;&emsp;&emsp;&emsp;
+        <select name="degree" required>
+            <option disabled selected>Select highest degree</option>
+            <option value="1">B.E or B.Tech CS/IT</option>
+            <option value="2">B.E or B.Tech Other</option>
+            <option value="3">M.S or M.Tech CS/IT</option>
+            <option value="4">M.S or M.Tech Other</option>
+            <option value="5">BCA</option>
+            <option value="6"> MCA</option>
+            <option value="7">Others</option>
+        </select><br><br>
+
+        <label>Year of Completion*</label>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+        <label>Programming Skills*</label><br><br>
+        <select name="yoc" required>
+            <option disabled selected>Select year of completion</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+
+        </select>
+        &emsp;&emsp;&emsp;&emsp;&emsp;
+        <select name="skills" required>
+            <option disabled selected>Select programming skill level</option>
+            <option value="a">No Coding Skills</option>
+            <option value="b">Basic Coding Skills</option>
+            <option value="c">Intermediate Coding Skills</option>
+            <option value="d">Good Coding Skills</option>
+
+        </select><br><br>
+
+        <input type="checkbox" value="check" name="checkB" required>By signing up, you agree to the <a href="#">Terms
+            and
+            Conditions</a> of Geekster (QuantumBit technologies Pvt. Ltd)*.<br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+
+</html>
