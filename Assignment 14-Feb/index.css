@@ -1,0 +1,93 @@
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navs {
+    
+    width: auto;
+    height: 150px;
+    margin-top: 10px;
+}
+input[type=text] {
+    width: 500px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-left: 120px;
+    border: 2px solid gainsboro;
+    border-right: none;
+    
+}
+button{
+    width: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+#bar{
+    border: none;
+    background-color: white;
+    font-size: 25px;
+}
+#logo{
+    border: none;
+    background-color: white;
+    color: red;
+    margin-right: 150px;
+    font-size: 30px;
+    
+}
+#search{
+    margin-left: -4px;
+    border-left: none;
+    border: 2px solid gainsboro;
+    padding: 13px 20px ;
+}
+#micro{
+    border-radius: 75%;
+    border: none;
+    margin-right: 70px;
+}
+
+#video{
+    border-radius: 75%;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+}
+#cells{
+    border-radius: 75%;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+
+}
+#bell{
+    border-radius: 75%;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+
+}
+.cards{
+    width: 200px;
+    height: 150px;
+    margin-left: 100px;
+    float: left;
+}
+.cards h4{
+    margin-top: 2px;
+}
+.cards p{
+    margin-top: -5px;
+    color: rgb(153, 145, 145);
+}
+#card-img{
+    width: 200px;
+    height: 150px;
+}
+
+#dots{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
