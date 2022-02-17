@@ -5,7 +5,7 @@ body {
 
 .navs {
     
-    width: auto;
+    /* width: auto; */
     height: 150px;
     margin-top: 10px;
 }
@@ -68,26 +68,47 @@ button{
     font-size: 25px;
 
 }
-.cards{
-    width: 200px;
-    height: 150px;
-    margin-left: 100px;
-    float: left;
+
+/*====================CARDS=========================*/
+
+.card-row{
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.cards h4{
+.cards {
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 200px;
+    height: 120px;
+}
+.card-info{
+    width: 200px;
+    height: 120px;
+}
+.cards h4 {
     margin-top: 2px;
 }
-.cards p{
+
+.cards p {
     margin-top: -5px;
     color: rgb(153, 145, 145);
-}
-#card-img{
+} 
+
+ #card-img {
     width: 200px;
     height: 150px;
-}
+} 
 
-#dots{
-    float: right;
+#dots {
+     float: right;
     margin-right: 10px;
     margin-top: 5px;
 }
