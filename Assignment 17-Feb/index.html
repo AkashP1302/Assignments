@@ -5,7 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Using Flex</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .box1{
+    width: 250px;
+    height: 180px;
+    background-color: rgb(180, 255, 230);
+}
+.box2{
+    width: 250px;
+    height: 180px;
+    background-color: rgb(83, 255, 198);
+}
+.box3{
+    width: 250px;
+    height: 180px;
+    background-color: rgb(17, 255, 176);
+}
+.container1{
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    
+}
+.container2{
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.container3{
+    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+    </style>
 </head>
 <body>
     <div class="container1">
