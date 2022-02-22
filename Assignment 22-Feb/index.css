@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+   h1{
+    text-align: center;
+}
+table , td, tr{
+    justify-content: center;
+    border: 1px solid black;
+    width: 250px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    margin: 100px 600px;
+}
+ td:hover{
+    background-color: rgb(32, 30, 30);
+    color: rgb(204, 224, 241);
+    
+}
