@@ -7,6 +7,14 @@
     <title>Game</title>
     <script src="https://kit.fontawesome.com/9ae5ed45de.js" crossorigin="anonymous"></script>
     <style>
+        body{
+            background-color:   #ffb88c;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-size: 50px;
+        }
         i{
             color: black;
             font-size: 25px;
@@ -22,12 +30,27 @@
             /* text-align: center; */
             justify-content: center;
             display: flex;
-            flex-direction: column;
-            margin: 200px 200px;
+            flex-direction: row;
+            margin: 170px 200px;
+            
 
         }
-        .side{
-            float: left;
+        .side-left{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            text-align: center;
+            /* border: 1px solid red; */
+            margin-right: 150px;
+                        
+        }
+        .side-rigth{
+            text-align: center;
+            display: flex;
+            width: 250px;
+            flex-direction: column;
+            /* border: 1px solid red; */
+
         }
     </style>
 </head>
@@ -37,7 +60,7 @@
     </header>
 
     <section class="main-section">
-        <div class="side">
+        <div class="side-left">
             <div id="heading">
                 <h3>YOUR SCORE</h3>
             </div>
@@ -50,6 +73,23 @@
                 <img src="rock.svg" alt="">
                 <img src="scissors.svg" alt="">
                 <img src="paper.svg" alt="">
+            </div>
+            <div>
+                <h3>Take Your Pick</h3>
+            </div>
+        </div>
+        <div class="side-rigth">
+            <div id="heading">
+                <h3>YOUR SCORE</h3>
+            </div>
+            <div>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+            </div>
+            <div>
+                <img src="rock.svg" alt="">
+                
             </div>
             <div>
                 <h3>Take Your Pick</h3>
